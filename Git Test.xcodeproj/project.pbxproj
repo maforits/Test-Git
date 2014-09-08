@@ -21,6 +21,7 @@
 		1228FFD819BE3B49004851CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1228FFBA19BE3B48004851CE /* UIKit.framework */; };
 		1228FFE019BE3B49004851CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1228FFDE19BE3B49004851CE /* InfoPlist.strings */; };
 		1228FFE219BE3B49004851CE /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1228FFE119BE3B49004851CE /* Git_TestTests.m */; };
+		12D381B819BE47A700881328 /* MVTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D381B719BE47A700881328 /* MVTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1228FFDD19BE3B49004851CE /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		1228FFDF19BE3B49004851CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1228FFE119BE3B49004851CE /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		12D381B619BE47A700881328 /* MVTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTest.h; sourceTree = "<group>"; };
+		12D381B719BE47A700881328 /* MVTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				1228FFCC19BE3B48004851CE /* MVViewController.m */,
 				1228FFCE19BE3B48004851CE /* Images.xcassets */,
 				1228FFBD19BE3B48004851CE /* Supporting Files */,
+				12D381B619BE47A700881328 /* MVTest.h */,
+				12D381B719BE47A700881328 /* MVTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				1228FFC319BE3B48004851CE /* main.m in Sources */,
 				1228FFCD19BE3B48004851CE /* MVViewController.m in Sources */,
+				12D381B819BE47A700881328 /* MVTest.m in Sources */,
 				1228FFC719BE3B48004851CE /* MVAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +462,7 @@
 				1228FFE719BE3B49004851CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1228FFE819BE3B49004851CE /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				1228FFEA19BE3B49004851CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
